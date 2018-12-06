@@ -1791,6 +1791,6 @@ end
 This is also available in other languages:
 
   - [Brazilian Portuguese](https://github.com/uohzxela/clean-code-ruby/blob/master/translations/pt-BR.md)
-  - [Turkisih](https://github.com/uohzxela/clean-code-ruby/blob/master/translations/tr-TR.md)
+  - [Turkish](https://github.com/enderahmetyurt/clean-code-ruby/blob/turkish_branch/translations/tr-TR.md)
 
 **[⬆ back to top](#table-of-contents)**

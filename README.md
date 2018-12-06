@@ -1313,7 +1313,7 @@ ISP states that "Clients should not be forced to depend upon interfaces that
 they do not use." Interfaces are implicit contracts in Ruby because of
 duck typing.
 
-When a client depends upon a class that contains interfaces that the client does not use, but that other clients do use, then that client will be affected by the changes that those other clients force upon the class. 
+When a client depends upon a class that contains interfaces that the client does not use, but that other clients do use, then that client will be affected by the changes that those other clients force upon the class.
 
 The following example is taken from [here](http://geekhmer.github.io/blog/2015/03/18/interface-segregation-principle-in-ruby/).
 
@@ -1791,5 +1791,6 @@ end
 This is also available in other languages:
 
   - [Brazilian Portuguese](https://github.com/uohzxela/clean-code-ruby/blob/master/translations/pt-BR.md)
+  - [Turkisih](https://github.com/uohzxela/clean-code-ruby/blob/master/translations/tr-TR.md)
 
 **[⬆ back to top](#table-of-contents)**

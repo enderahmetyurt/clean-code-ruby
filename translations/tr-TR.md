@@ -27,6 +27,41 @@ Robert C. Martin's kitabı olan Software engineering principles
 Ruby için uyarlanmış. Bu bir stil rehberi değiştir. Ruby'de
 [okunabilir, tekrar kullanılabilir ve yeniden yorumlanabilir](https://github.com/ryanmcdermott/3rs-of-software-architecture) yazılımlar üretmek için bir rehberdir.
 
+## **Değişkenler**
+### Anlamlı ve telafuz edilebilir değişken isimleri kullanın
+
+**Köyü:**
+```ruby
+yyyymmdstr = Time.now.strftime('%Y/%m/%d')
+```
+
+**İyi:**
+```ruby
+current_date = Time.now.strftime('%Y/%m/%d')
+```
+**[⬆ başa dön](#table-of-contents)**
+
+### Aynı tipten değişkenler için benzer kelimeler kullanın
+
+Konsept için bir kelime seçin ve ona bağlı kalın.
+**Kötü:**
+```ruby
+user_info
+user_data
+user_record
+
+starts_at
+start_at
+start_time
+```
+
+**İyi:**
+```ruby
+user
+
+starts_at
+```
+**[⬆ başa dön](#table-of-contents)**
 
 ## Translations
 
